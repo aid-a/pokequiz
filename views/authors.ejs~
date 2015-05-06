@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"><title> Creditos </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel='stylesheet' 
+        type='text/css'
+        media='only screen and (min-width: 530px) and (min-device-width: 481px)'
+        href='/stylesheets/wide.css' />
+  <link rel='stylesheet'
+        type='text/css'
+        media='only screen and (max-width: 480px)' 
+        href='/stylesheets/smartphone.css' />
+</head> 
+
+  <body>
+
+  	<!-- CABECERA -->
+  	<div id="page-wrap">
+  <header class="main" id="h1">
+    <h2>Créditos<span>: autores</span></h2>
+  </header>
+
+	<!-- VÍDEO -->
+	<div class="video">
+		<center>
+		<iframe src="https://www.youtube.com/embed/NZzarfbzdIA" allowfullscreen></iframe></center>
+	</div>
+
+	<!-- IMÁGENES -->
+	<div class="fila">
+		<div class="esteban">
+			<center>
+				<p>Aquí tenemos a Esteban:</p>
+				<img src="/Esteban.jpg">
+			</center>
+		</div>
+		<div class="aida">
+			<center>
+				<p>Y aquí a Aida:</p>
+				<img src="/Aida.jpg">
+			</center>
+		</div>
+	</div>
+
+	<!-- PIE DE PÁGINA -->
+	<footer>
+	<center>
+	<p>Creado por Esteban Alonso Alarcón y Aida Jerez Tarifa
+		<br>
+		Contacto: <a href="mailto:e.alonsoa@alumnos.upm.es">e.alonsoa@alumnos.upm.es</a> <a href="mailto:aida.jtarifa@alumnos.upm.es">aida.jtarifa@alumnos.upm.es</a>
+		<br>
+		Hora de carga:
+		  <script type="text/javascript"> document.write(new Date()); </script>
+		</p>
+		</center>
+		
+	</footer>
+
+</body>
+</html>
+                                        
+    
