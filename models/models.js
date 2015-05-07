@@ -37,10 +37,13 @@ sequelize.sync().then(function() {
   // then(..) ejecuta el manejador una vez creada la tabla
   Quiz.count().then(function (count){
     if(count === 0) {   // la tabla se inicializa solo si está vacía
-      Quiz.bulkCreate( 
-        [ {pregunta: 'Apellido de Ash',   respuesta: 'Ketchum'}
-        ]
-      ).then(function(){console.log('Base de datos inicializada')});
+      Quiz.create({ pregunta: '¿Cuál es el apellido de Ash?',
+                    respuesta: 'Ketchum'
+                  });
+      Quiz.create({ pregunta: '¿Cuál es el pokémon preferido de Ash?',
+                    respuesta: 'Pikachu'
+                  })
+      .then(function(){console.log('Base de datos inicializada')});
     };
   });
 });
