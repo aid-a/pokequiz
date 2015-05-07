@@ -10,7 +10,7 @@ exports.question = function(req, res){
 //GET /quizes/answer
 exports.answer = function(req, res){
 	models.Quiz.findAll().success(function(quiz){ 
-		if (req.query.respuesta === 'Ketchum'){
+		if (req.query.respuesta === quiz[0].respuesta){
 			res.render('quizes/answer', {respuesta: "Correcto, qué friki eres."});
 		} else {
 			res.render('quizes/answer', {respuesta: 'Incorrecto :('});
