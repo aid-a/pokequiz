@@ -5,7 +5,7 @@ var quizController = require('../controllers/quiz_controller');
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'PokéQuiz' })
+  res.render('index', { title: 'PokéQuiz', errors: []})
 });
 
 // Autoload de comandos con :quizId
